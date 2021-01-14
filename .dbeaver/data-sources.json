@@ -1,0 +1,27 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1714e872b73-77fc25821025952c": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - hrmap",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "hrmap",
+				"url": "jdbc:mysql://localhost:3306/hrmap",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.6",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"provider-properties": {
+					"@dbeaver-serverTimezone@": "Africa/Harare"
+				},
+				"handlers": {}
+			}
+		}
+	}
+}

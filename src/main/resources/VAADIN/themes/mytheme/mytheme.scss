@@ -1,0 +1,221 @@
+@import "../valo/valo.scss";
+@mixin mytheme {
+	@include valo; // Insert your own theme rules here
+	/* White background for the entire UI */
+	.v-ui {
+	  background: white;
+	}
+
+	.v-Notification.mystyle {
+		background: #FFFF00;
+		border: 10px solid #C00000;
+		color: black;
+	}
+	// 	.ssbg {
+// 	    background: #aad3df;
+// // 		background-image: url(img/mhs_bg2.jpg);
+// 		height: 100%;
+// 		/* Center and scale the image nicely */
+// 		background-position: center;
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 	}
+	/* All labels have white text on black background */
+	// .v-label {
+	// // background: black;
+	// // color: white;
+	// font-size: 14pt;
+	// line-height: 24pt;
+	// padding: 5px;
+	// }
+	// .v-ui{
+	// background-image: url(img/bg1.jpg);
+	// }
+	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 	/* All buttons have white caption and some margin */
+// 	 .v-button {
+// 	// margin: 15px;
+// 	// background: #e9af03;
+// 	/* A nested selector to increase specificity */
+// 	 .v-button-caption {color: black;}
+// 	 }
+	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	// .v-filterselect { background: #e9af03;
+	// .v-filterselect-input {color: black; }
+	// .v-filterselect-button { background: #e9af03;}
+	// }
+// 	.transparentbg {
+// 		opacity: 0.0;
+// 	}
+// 	.v-label {
+// 		// pre {color: #e9af03; }
+// 	}
+// 	// .v-label-flowbox {
+// 	// border: thin black solid;
+// 	// }
+// 	.v-textfield-caption {
+// 		color: white;
+// 	}
+// 
+// 	.v-textfield .v-icon {
+// 		color: blue;
+// 	}
+// 
+// 	.appwhite {
+// 		background: #ffffff;
+// 	}
+// 	.appwhitefg {
+// 		color: #ffffff;
+// 		font-size: 55px;
+// 		font-weight: bolder;
+// 	}
+// 	.applightgray {
+// 		background-color: #808080;
+// 	}
+// 	.mhsbtnlite {
+// 		background-color: #ffffff;
+// 		color: #4CAF50;
+// 		border: 2px solid #4CAF50;
+// 		/* Green */
+// 	}
+// 
+// 	.hmyellow {
+// 		background: #e9af03;
+// 	}
+// 	.hmyellowfg {
+// 		color: #ffffff;
+// 	}
+// 	.sswhite {
+// 		color: #ffffff;
+// 	}
+// 	.hmyellowfgbold {
+// 		color: #e9af03;
+// 	}
+// 	.vblue .v-icon {
+// 		color: #187cdd;
+// 	}
+// 	.vblack .v-icon {
+// 		color: #191d1f;
+// 	}
+// 	.ssblue {
+// 		color: #00008b;
+// 	}
+// 	.ssred {
+// 		color: #d60000;
+// 	}
+// 	.ssgreen {
+// 		color: #23aa5a;
+// 	}
+// 	.hmgrey {
+// 		background: #4b4b4b;
+// 	}
+// 	.hmlightgrey {
+// 		background: #b9b9b9;
+// 	}
+// 
+// 	.ssbluebg {
+// 		background: #197ddd;
+// 	}
+// 	.ssgreenbg {
+// 		background: #89a54e;
+// 	}
+
+// 
+// 	.background-tint {
+//   		background-color: rgba(200,100,0,.5); // Tint color
+//   		background-blend-mode: multiply;
+// 	}
+// 
+// 	.v-icon {
+// 		color: white;
+// 	}
+// 	.v-icon i::selection {
+// 		color: #e9af03;
+// 	}
+// 	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 	// .v-horizontallayout {
+// 	// 	background: #e9af03;
+// 	//  background-image: url(img/bg.png);
+// 	//  height: 100%; 
+// 	//  /* Center and scale the image nicely */
+// 	//  background-position: center;
+// 	//  background-repeat: no-repeat;
+// 	//  background-size: cover;
+// 	// } 
+// 	// body {
+// 	//     background-color: lightblue;
+// 	// }
+// 	// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 	.v-menubar {
+// 		// background-color: #e9af03;
+// 		.v-menubar-menuitem-selected {
+// 			color: yellow;
+// 		}
+// 	}
+// 	.v-caption-awesomecaption .v-captiontext {
+// 		font-family: FontAwesome;
+// 	}
+// 	.redicon .v-icon {
+// 		color: red;
+// 	}
+// 	.white-text .v-button {
+// 	// margin: 15px;
+// 	// background: #e9af03;
+// 	/* A nested selector to increase specificity */
+// 	 .v-button-caption {color: white;}
+// 	 }
+// 
+// 	.whiteicon .v-icon {
+// 		color: #ffffff;
+// 	}
+// 	.nbg {
+// 		background-color: #ffe5e5;
+// 	}
+// 	/* Have the caption right of the text box, bottom-aligned */
+// 	.csslayoutexample .mylayout .v-csslayout-container {
+// 		direction: rtl;
+// 		line-height: 24px;
+// 		vertical-align: bottom;
+// 	}
+// 	/* Have some space before and after the caption */
+// 	.csslayoutexample .mylayout .v-csslayout-container .v-caption {
+// 		padding-left: 3px;
+// 		padding-right: 10px;
+// 	}
+// 	.v-label {
+// 		// 	background: #e9af03;
+// 		// 	background-color: #e9af03;
+// 		// font-size: 33px;
+// 		// font-weight: bolder;
+// 	}
+// 	// .v-grid-row.grayed {
+// 	// color: gray;
+// 	// }
+// 	// .v-grid-cell.rightalign {
+// 	// text-align: right;
+// 	// }
+// 	// .mymargins.v-margin-left {padding-left: 40px;}
+// 	// .mymargins.v-margin-right {padding-right: 40px;}
+// 	// .mymargins.v-margin-top {padding-top: 40px;}
+// 	// .mymargins.v-margin-bottom {padding-bottom: 60px;}
+// 	/* Basic settings for all sizes */
+// 	.myresponsive {
+// 		padding: 5px;
+// 		line-height: 36pt;
+// 	}
+// 	/* Small size */
+// 	.myresponsive[width-range~="0-300px"] {
+// 		background: orange;
+// 		font-size: 16pt;
+// 	}
+// 	/* Medium size */
+// 	.myresponsive[width-range~="301px-600px"] {
+// 		background: azure;
+// 		font-size: 24pt;
+// 	}
+// 	/* Anything bigger */
+// 	.myresponsive[width-range~="601px-"] {
+// 		background: palegreen;
+// 		font-size: 36pt;
+// 	}
+} //mytheme
